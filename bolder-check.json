@@ -1,0 +1,432 @@
+
+> check
+> hyperframes check --at 2,5,8,23,75,85,95,105,107,108,113,117.9 --json
+
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 6,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-start=\"0\" data-track-index=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-start=\"0\" data-track-index=\"1\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-start=\"10\" data-track-index=\"1\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <canvas id=\"world\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <div id=\"fire-copy\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <div id=\"roots-copy\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Temp\\Clip\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 11
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 11,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-industry\" is 9.67s but its slot (data-duration) is 11.20s — the slot is shortened to the media length when rendered. Set data-duration to ~9.67s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-electricity\" is 9.77s but its slot (data-duration) is 9.90s — the slot is shortened to the media length when rendered. Set data-duration to ~9.77s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-computing\" is 8.45s but its slot (data-duration) is 9.60s — the slot is shortened to the media length when rendered. Set data-duration to ~8.45s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-space\" is 5.59s but its slot (data-duration) is 9.20s — the slot is shortened to the media length when rendered. Set data-duration to ~5.59s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-ai\" is 9.65s but its slot (data-duration) is 11.50s — the slot is shortened to the media length when rendered. Set data-duration to ~9.65s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-closing\" is 12.62s but its slot (data-duration) is 12.70s — the slot is shortened to the media length when rendered. Set data-duration to ~12.62s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-fire\" is 8.09s but its slot (data-duration) is 8.50s — the slot is shortened to the media length when rendered. Set data-duration to ~8.09s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-roots\" is 9.38s but its slot (data-duration) is 9.50s — the slot is shortened to the media length when rendered. Set data-duration to ~9.38s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-science\" is 8.26s but its slot (data-duration) is 9.20s — the slot is shortened to the media length when rendered. Set data-duration to ~8.26s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-printing\" is 8.23s but its slot (data-duration) is 9.20s — the slot is shortened to the media length when rendered. Set data-duration to ~8.23s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice-writing\" is 8.26s but its slot (data-duration) is 9.20s — the slot is shortened to the media length when rendered. Set data-duration to ~8.26s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-hgh9",
+          "data-composition-id": "spark",
+          "data-start": "0",
+          "data-duration": "118",
+          "data-width": "720",
+          "data-height": "1280"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 118,
+    "samples": [
+      2,
+      5,
+      8,
+      23,
+      75,
+      85,
+      95,
+      105,
+      107,
+      108,
+      113,
+      117.9
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      2,
+      8,
+      85,
+      107,
+      117.9
+    ],
+    "checked": 25,
+    "passed": 25
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.137",
+    "latestVersion": "0.8.136",
+    "updateAvailable": false
+  }
+}

@@ -88,3 +88,12 @@ Delivery: HyperFrames preview only; no new MP4.
 - Space: detailed textured Earth and separate clouds, multistage rocket with engine bells, fins and panel detail.
 - Closing (104–118s): full-body figure holding a golden light; subtle push-in.
 - Narration: Progress is rarely a straight line, but it never stops—it accelerates. What comes next isn’t written yet. It depends on what we choose to build. So... what will you build?
+
+
+## Living light and campfire revision
+- Runtime stays 118 seconds; narration and all chapter timings retained.
+- Fire: four articulated procedural people with shaped torsos, facial silhouettes, bent limbs, clothing, standing/crouching/hand-warming poses, breathing and small head/arm movements. Point-light shadows and warm flicker ground them around the fire.
+- Closing: clean generated character plate; independent golden sphere adapted from HyperFrames cosmic-orb shader, slow irregular brightness pulse, minimal size variation, tiny drift, and rising sparks. Palm/sleeve/face illumination follows the same pulse and is clipped to the asset alpha. All motion is derived directly from composition time.
+- Verification: full check passed; fire frames 2/5/7.5s and closing frames 105/106/107/108/110/113/117.9s inspected. No MP4 exported.
+
+Visual revision: early-human figures now use rough-edged hide wraps, exposed arms and legs, longer hair and shoulder pelts. Closing sphere has stronger cyan-blue emission, reflected blue light, orbiting arcs and 34 drifting sparks. Duration remains 118 seconds; preview only.
