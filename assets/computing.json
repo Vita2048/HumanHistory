@@ -1,0 +1,116 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 2184580,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3305830,
+    "duration": 2670000,
+    "text": "taught"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6097080,
+    "duration": 4247500,
+    "text": "machines"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 10465830,
+    "duration": 849580,
+    "text": "to"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11437080,
+    "duration": 5946660,
+    "text": "calculate"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 19082500,
+    "duration": 1577500,
+    "text": "then"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 20781660,
+    "duration": 4611660,
+    "text": "connected"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 25514580,
+    "duration": 2791250,
+    "text": "them"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 36665000,
+    "duration": 2305830,
+    "text": "More"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 39092080,
+    "duration": 3276660,
+    "text": "people"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 42490410,
+    "duration": 1699160,
+    "text": "could"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 44310830,
+    "duration": 2670000,
+    "text": "share"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 47102080,
+    "duration": 4732910,
+    "text": "knowledge"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53897910,
+    "duration": 4368750,
+    "text": "create"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 60451250,
+    "duration": 849580,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 61422500,
+    "duration": 5582500,
+    "text": "collaborate"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 67126250,
+    "duration": 3155410,
+    "text": "across"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 70402910,
+    "duration": 849580,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71373750,
+    "duration": 4732910,
+    "text": "planet"
+  }
+]

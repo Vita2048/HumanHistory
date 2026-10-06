@@ -1,0 +1,116 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 2286660,
+    "text": "For"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3439160,
+    "duration": 3658330,
+    "text": "most"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7250000,
+    "duration": 1219580,
+    "text": "of"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 8622080,
+    "duration": 1981660,
+    "text": "our"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 10756250,
+    "duration": 4725410,
+    "text": "story"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 17768330,
+    "duration": 1067080,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 18987910,
+    "duration": 3201250,
+    "text": "night"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 22341660,
+    "duration": 1981660,
+    "text": "was"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 24475410,
+    "duration": 5792500,
+    "text": "dark"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 40896250,
+    "duration": 2896250,
+    "text": "Then"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 43945000,
+    "duration": 1067080,
+    "text": "we"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 45164580,
+    "duration": 3658330,
+    "text": "learned"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 48975410,
+    "duration": 762080,
+    "text": "to"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49890410,
+    "duration": 4268330,
+    "text": "carry"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 54310830,
+    "duration": 609580,
+    "text": "a"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55073330,
+    "duration": 3658330,
+    "text": "little"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 58884160,
+    "duration": 5335410,
+    "text": "daylight"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 64372080,
+    "duration": 1829160,
+    "text": "with"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66353750,
+    "duration": 3810830,
+    "text": "us"
+  }
+]

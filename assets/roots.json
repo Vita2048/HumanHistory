@@ -1,0 +1,110 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 1820410,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 2941660,
+    "duration": 4611660,
+    "text": "planted"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7674580,
+    "duration": 5340000,
+    "text": "seeds"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 21373750,
+    "duration": 1941660,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 23437080,
+    "duration": 2548750,
+    "text": "built"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 26106660,
+    "duration": 5946660,
+    "text": "homes"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 40427080,
+    "duration": 4005000,
+    "text": "Across"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 44553330,
+    "duration": 7160000,
+    "text": "generations"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53655410,
+    "duration": 3640830,
+    "text": "villages"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57417500,
+    "duration": 2305830,
+    "text": "grew"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59844580,
+    "duration": 2427080,
+    "text": "into"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 62393330,
+    "duration": 3883330,
+    "text": "places"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66397910,
+    "duration": 2184580,
+    "text": "no"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 68703750,
+    "duration": 3640830,
+    "text": "single"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 72465830,
+    "duration": 3883330,
+    "text": "person"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 76470830,
+    "duration": 1699160,
+    "text": "could"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 78291250,
+    "duration": 2305830,
+    "text": "build"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 80718330,
+    "duration": 4611660,
+    "text": "alone"
+  }
+]

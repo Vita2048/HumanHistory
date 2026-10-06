@@ -1,0 +1,110 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 2062910,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3184580,
+    "duration": 3762080,
+    "text": "measured"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 9131250,
+    "duration": 4732910,
+    "text": "tested"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 15927080,
+    "duration": 1335000,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 17383330,
+    "duration": 6553330,
+    "text": "questioned"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32296250,
+    "duration": 3640830,
+    "text": "Again"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 36058330,
+    "duration": 1092080,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 37271660,
+    "duration": 3762080,
+    "text": "again"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 43097080,
+    "duration": 849580,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 44067910,
+    "duration": 5340000,
+    "text": "universe"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49529160,
+    "duration": 3883330,
+    "text": "proved"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53534160,
+    "duration": 4854160,
+    "text": "stranger"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 58509580,
+    "duration": 1213750,
+    "text": "than"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59844580,
+    "duration": 728330,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 60694160,
+    "duration": 4126250,
+    "text": "stories"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 64941660,
+    "duration": 1092080,
+    "text": "we"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66155410,
+    "duration": 2548750,
+    "text": "had"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 68825410,
+    "duration": 5218330,
+    "text": "told"
+  }
+]

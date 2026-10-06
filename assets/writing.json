@@ -1,0 +1,104 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 2352910,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3500000,
+    "duration": 2794160,
+    "text": "gave"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6441250,
+    "duration": 4264580,
+    "text": "memory"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 10852910,
+    "duration": 735410,
+    "text": "a"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11735410,
+    "duration": 5441250,
+    "text": "shape"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 27411660,
+    "duration": 4264580,
+    "text": "Words"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31823330,
+    "duration": 1911660,
+    "text": "could"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 33882500,
+    "duration": 3823330,
+    "text": "travel"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 37852910,
+    "duration": 3970410,
+    "text": "farther"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 41970410,
+    "duration": 1911660,
+    "text": "than"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 44029580,
+    "duration": 5294160,
+    "text": "voices"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 51823330,
+    "duration": 1911660,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53882500,
+    "duration": 4411660,
+    "text": "knowledge"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 58441250,
+    "duration": 1617500,
+    "text": "could"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 60205830,
+    "duration": 3676660,
+    "text": "outlive"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 64029580,
+    "duration": 1764580,
+    "text": "its"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 65941250,
+    "duration": 6470410,
+    "text": "makers"
+  }
+]

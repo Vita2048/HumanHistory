@@ -1,0 +1,37 @@
+# ---- dependencies (reinstall with npm ci / pip install edge-tts) ----
+node_modules/
+.tools/
+__pycache__/
+*.pyc
+
+# ---- generated video output (re-render with npm run render) ----
+renders/
+*.mp4
+
+# ---- review snapshots / contact sheets (regenerate, not source) ----
+snapshots/
+snapshots-final/
+snapshots-refined/
+*-review/
+*-refined/
+*-final/
+*-polish/
+qc/
+.thumbnails/
+
+# ---- framework / tool caches ----
+.hyperframes/
+.waveform-cache/
+
+# ---- command outputs / logs (result checks, regenerate with npm run check) ----
+debug.log
+check.json
+timeline.json
+keyframes.json
+
+# ---- legacy helpers for the old 20s export (superseded by the HyperFrames CLI) ----
+render.mjs
+verify.mjs
+
+# ---- exact duplicate of AGENTS.md ----
+CLAUDE.md

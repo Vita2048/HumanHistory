@@ -1,0 +1,104 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 1820410,
+    "text": "We"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 2941660,
+    "duration": 3155410,
+    "text": "reached"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6218330,
+    "duration": 3397910,
+    "text": "beyond"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 9737910,
+    "duration": 2912500,
+    "text": "Earth"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 14228330,
+    "duration": 1092080,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 15441660,
+    "duration": 1941660,
+    "text": "looked"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 17505000,
+    "duration": 2184580,
+    "text": "back"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 19810830,
+    "duration": 485409,
+    "text": "at"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 20417500,
+    "duration": 728330,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 21267080,
+    "duration": 5340000,
+    "text": "fragile"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 26728330,
+    "duration": 2427080,
+    "text": "home"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 29276660,
+    "duration": 1213750,
+    "text": "that"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 30611660,
+    "duration": 1335000,
+    "text": "had"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32067910,
+    "duration": 2548750,
+    "text": "made"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 34737910,
+    "duration": 2305830,
+    "text": "every"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 37165000,
+    "duration": 5097080,
+    "text": "discovery"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 42383330,
+    "duration": 5097080,
+    "text": "possible"
+  }
+]

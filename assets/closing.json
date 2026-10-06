@@ -1,0 +1,104 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 5097080,
+    "text": "Progress"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6218330,
+    "duration": 1456250,
+    "text": "is"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7796250,
+    "duration": 2791250,
+    "text": "never"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 10708750,
+    "duration": 7767080,
+    "text": "guaranteed"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 26835000,
+    "duration": 2427080,
+    "text": "What"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 29383330,
+    "duration": 3034160,
+    "text": "comes"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32538750,
+    "duration": 2670000,
+    "text": "next"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 35330000,
+    "duration": 3519580,
+    "text": "depends"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 38970830,
+    "duration": 1213750,
+    "text": "on"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 40305830,
+    "duration": 1699160,
+    "text": "what"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 42126250,
+    "duration": 1092080,
+    "text": "we"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 43340000,
+    "duration": 3519580,
+    "text": "choose"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 46980410,
+    "duration": 970830,
+    "text": "to"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 48072910,
+    "duration": 3762080,
+    "text": "build"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53897910,
+    "duration": 1699160,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55718330,
+    "duration": 1213750,
+    "text": "for"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57053330,
+    "duration": 4611660,
+    "text": "whom"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 6917500,
+    "text": "Electricity"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 8038750,
+    "duration": 3034160,
+    "text": "threaded"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11194160,
+    "duration": 2791250,
+    "text": "through"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 14106660,
+    "duration": 2305830,
+    "text": "our"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 16534160,
+    "duration": 5946660,
+    "text": "cities"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 30840000,
+    "duration": 3519580,
+    "text": "Night"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 34480410,
+    "duration": 5703750,
+    "text": "changed"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 48558330,
+    "duration": 4611660,
+    "text": "Voices"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53291250,
+    "duration": 3640830,
+    "text": "crossed"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57053330,
+    "duration": 6067910,
+    "text": "oceans"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71495000,
+    "duration": 1335000,
+    "text": "The"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 72951250,
+    "duration": 3640830,
+    "text": "world"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 76713750,
+    "duration": 3276660,
+    "text": "began"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 80111660,
+    "duration": 849580,
+    "text": "to"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 81082500,
+    "duration": 2912500,
+    "text": "feel"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 84116660,
+    "duration": 5218330,
+    "text": "smaller"
+  }
+]

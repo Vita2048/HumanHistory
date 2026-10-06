@@ -1,0 +1,122 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 5461250,
+    "text": "Machines"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6582500,
+    "duration": 5703750,
+    "text": "amplified"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 12407910,
+    "duration": 1820410,
+    "text": "our"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 14349580,
+    "duration": 5582500,
+    "text": "strength"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 28291250,
+    "duration": 4732910,
+    "text": "Industry"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 33145830,
+    "duration": 5946660,
+    "text": "transformed"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 39213750,
+    "duration": 2791250,
+    "text": "daily"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 42126250,
+    "duration": 3762080,
+    "text": "life"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 48194160,
+    "duration": 1213750,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49529160,
+    "duration": 2670000,
+    "text": "brought"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 52320410,
+    "duration": 2184580,
+    "text": "new"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 54626250,
+    "duration": 4975830,
+    "text": "dangers"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 61422500,
+    "duration": 7402910,
+    "text": "inequalities"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71009580,
+    "duration": 970830,
+    "text": "and"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 72102080,
+    "duration": 4005000,
+    "text": "costs"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 76228330,
+    "duration": 849580,
+    "text": "to"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 77199160,
+    "duration": 849580,
+    "text": "the"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 78170000,
+    "duration": 3276660,
+    "text": "world"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 81567910,
+    "duration": 3883330,
+    "text": "around"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 85572910,
+    "duration": 2670000,
+    "text": "us"
+  }
+]
