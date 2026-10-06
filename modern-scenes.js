@@ -10,8 +10,16 @@ export function createComputing(){
  const cream=mat('#bcb5a2'),dark=mat('#282e32'),keys=mat('#b3afa4');
  put(new RoundedBoxGeometry(5.6,4.3,3.8,5,.22),cream,0,1.1,-.5,computer);
  put(new RoundedBoxGeometry(4.75,3.4,.18,5,.16),dark,0,1.3,1.49,computer);
- const canvas=document.createElement('canvas');canvas.width=1024;canvas.height=768;const ctx=canvas.getContext('2d');ctx.fillStyle='#081d1c';ctx.fillRect(0,0,1024,768);ctx.fillStyle='#90d4a4';ctx.font='36px monospace';const lines=['PERSONAL COMPUTER','READY.','','> CONNECT','ESTABLISHING LINK...','','KNOWLEDGE HAS NO BORDERS','> _'];lines.forEach((l,i)=>ctx.fillText(l,65,90+i*72));const tex=new THREE.CanvasTexture(canvas);tex.colorSpace=THREE.SRGBColorSpace;
- put(new THREE.PlaneGeometry(4.25,2.92),new THREE.MeshBasicMaterial({map:tex}),0,1.3,1.6,computer);
+  const canvas=document.createElement('canvas');canvas.width=1024;canvas.height=768;const ctx=canvas.getContext('2d');const tex=new THREE.CanvasTexture(canvas);tex.colorSpace=THREE.SRGBColorSpace;
+  const lines=['PERSONAL COMPUTER','READY.','','> CONNECT','ESTABLISHING LINK...','','KNOWLEDGE HAS NO BORDERS','> '];
+  // Deterministic type-on terminal: lines appear as the scene plays, cursor blinks, scanlines baked in.
+  function drawScreen(t){ctx.fillStyle='#081d1c';ctx.fillRect(0,0,1024,768);ctx.fillStyle='#90d4a4';ctx.font='36px monospace';const n=Math.max(0,Math.min(lines.length,Math.floor((t-.4)/.75)));for(let i=0;i<n;i++)ctx.fillText(lines[i],65,90+i*72);if(n>0&&n<=lines.length&&Math.floor(t*2)%2===0){const last=lines[Math.min(n,lines.length)-1];ctx.fillRect(65+ctx.measureText(last).width+8,90+(Math.min(n,lines.length)-1)*72-28,22,36);}ctx.fillStyle='rgba(0,0,0,.20)';for(let y=0;y<768;y+=4)ctx.fillRect(0,y,1024,2);tex.needsUpdate=true;}
+  drawScreen(0);
+  const screenMat=new THREE.MeshBasicMaterial({map:tex});
+  put(new THREE.PlaneGeometry(4.25,2.92),screenMat,0,1.3,1.6,computer);
+  // Curved-glass glare: faint diagonal sheen floating just off the tube face.
+  const glareCanvas=document.createElement('canvas');glareCanvas.width=256;glareCanvas.height=176;const gx=glareCanvas.getContext('2d');const grad=gx.createLinearGradient(0,0,256,176);grad.addColorStop(0,'rgba(255,255,255,.55)');grad.addColorStop(.35,'rgba(255,255,255,.06)');grad.addColorStop(.6,'rgba(255,255,255,0)');gx.fillStyle=grad;gx.fillRect(0,0,256,176);const glareTex=new THREE.CanvasTexture(glareCanvas);glareTex.colorSpace=THREE.SRGBColorSpace;
+  put(new THREE.PlaneGeometry(4.25,2.92),new THREE.MeshBasicMaterial({map:glareTex,transparent:true,opacity:.5,blending:THREE.AdditiveBlending,depthWrite:false}),0,1.3,1.63,computer);
  put(new RoundedBoxGeometry(5.7,.72,4,3,.12),cream,0,-1.45,-.15,computer);
  put(new THREE.BoxGeometry(2,.13,.04),dark,.6,-1.38,1.87,computer);put(new THREE.BoxGeometry(.2,.12,.05),dark,1.9,-1.38,1.88,computer);
  const led=put(new THREE.SphereGeometry(.045,12,8),new THREE.MeshBasicMaterial({color:'#a6ec86'}),-2.25,-1.43,1.9,computer);
@@ -19,11 +27,17 @@ export function createComputing(){
  const keyboard=new THREE.Group();keyboard.position.set(0,-2,3.6);keyboard.rotation.x=.1;computer.add(keyboard);put(new RoundedBoxGeometry(5.7,.3,2,3,.1),cream,0,0,0,keyboard);
  for(let r=0;r<4;r++)for(let k=0;k<14;k++)put(new RoundedBoxGeometry(.31,.14,.31,2,.025),keys,-2.45+k*.375,.2,-.65+r*.36,keyboard);
  put(new RoundedBoxGeometry(2.2,.14,.24,2,.025),keys,0,.2,.82,keyboard);
- put(new RoundedBoxGeometry(.65,.35,1.05,3,.13),cream,3.65,-1.9,3.65,computer);
+  put(new RoundedBoxGeometry(.65,.35,1.05,3,.13),cream,3.65,-1.9,3.65,computer);
+  put(new THREE.BoxGeometry(.025,.02,.8),dark,3.65,-1.71,3.65,computer);
+  put(new THREE.SphereGeometry(.045,12,8),new THREE.MeshBasicMaterial({color:'#e05a4e'}),-2.05,-1.43,1.9,computer);
+  put(new THREE.BoxGeometry(.5,.12,.02),mat('#8b7961',.4),-1.2,-1.45,1.86,computer);
+  // Keyboard cable: fixed drooping curve from the keyboard into the base unit.
+  const cableCurve=new THREE.CatmullRomCurve3([new THREE.Vector3(2.2,-1.9,4.3),new THREE.Vector3(2.75,-2.35,3.9),new THREE.Vector3(2.9,-2.3,2.9),new THREE.Vector3(2.62,-1.55,2.2)]);
+  const cable=new THREE.Mesh(new THREE.TubeGeometry(cableCurve,32,.035,6),dark);computer.add(cable);
  const table=put(new THREE.BoxGeometry(15,.24,10),mat('#353242'),0,1.6,1,scene);
  const network=new THREE.Group();network.position.set(0,7,-9);scene.add(network);const ps=[];
  for(let i=0;i<70;i++){const y=1-2*(i+.5)/70,r=Math.sqrt(1-y*y),a=i*2.399,v=new THREE.Vector3(Math.cos(a)*r*4,y*4,Math.sin(a)*r*4);ps.push(v);put(new THREE.SphereGeometry(.055,10,8),new THREE.MeshBasicMaterial({color:'#e9bf7f'}),v.x,v.y,v.z,network);if(i>2){const g=new THREE.BufferGeometry().setFromPoints([ps[i-3],v]);network.add(new THREE.Line(g,new THREE.LineBasicMaterial({color:'#ac9785',transparent:true,opacity:.3})));}}
- function update(camera,t){const p=sm((t-3)/7);camera.position.set(7-p*5,7+p*3,15+p*7);camera.lookAt(0,3.2+p*1.8,0-p*4);network.visible=t>3;network.scale.setScalar(Math.max(.001,sm((t-3)/2)));network.rotation.y=t*.12;}
+  function update(camera,t){const p=sm((t-3)/7);camera.position.set(7-p*5,7+p*3,15+p*7);camera.lookAt(0,3.2+p*1.8,0-p*4);network.visible=t>3;network.scale.setScalar(Math.max(.001,sm((t-3)/2)));network.rotation.y=t*.12;drawScreen(t);screenMat.color.setScalar(.94+.06*Math.abs(Math.sin(t*43)));led.material.color.setHex(Math.floor(t*1.5)%2===0?0xa6ec86:0x4a7a3a);}
  return {scene,update};
 }
 export function createSpace(){
