@@ -2,103 +2,187 @@
   {
     "type": "WordBoundary",
     "offset": 1000000,
-    "duration": 5097080,
+    "duration": 5582500,
     "text": "Progress"
   },
   {
     "type": "WordBoundary",
-    "offset": 6218330,
-    "duration": 1456250,
+    "offset": 6703750,
+    "duration": 1335000,
     "text": "is"
   },
   {
     "type": "WordBoundary",
-    "offset": 7796250,
-    "duration": 2791250,
+    "offset": 8160000,
+    "duration": 3519580,
+    "text": "rarely"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11800830,
+    "duration": 606660,
+    "text": "a"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 12529160,
+    "duration": 3519580,
+    "text": "straight"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 16170000,
+    "duration": 3640830,
+    "text": "line"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 21024160,
+    "duration": 970830,
+    "text": "but"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 22116660,
+    "duration": 970830,
+    "text": "it"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 23208750,
+    "duration": 2305830,
     "text": "never"
   },
   {
     "type": "WordBoundary",
-    "offset": 10708750,
-    "duration": 7767080,
-    "text": "guaranteed"
+    "offset": 25635830,
+    "duration": 4611660,
+    "text": "stops"
   },
   {
     "type": "WordBoundary",
-    "offset": 26835000,
-    "duration": 2427080,
+    "offset": 32310830,
+    "duration": 1092080,
+    "text": "it"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 33524160,
+    "duration": 8009580,
+    "text": "accelerates"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49893330,
+    "duration": 2184580,
     "text": "What"
   },
   {
     "type": "WordBoundary",
-    "offset": 29383330,
-    "duration": 3034160,
+    "offset": 52199160,
+    "duration": 2912500,
     "text": "comes"
   },
   {
     "type": "WordBoundary",
-    "offset": 32538750,
-    "duration": 2670000,
+    "offset": 55232910,
+    "duration": 2791250,
     "text": "next"
   },
   {
     "type": "WordBoundary",
-    "offset": 35330000,
+    "offset": 58145830,
+    "duration": 2427080,
+    "text": "isn\u2019t"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 60694160,
+    "duration": 2548750,
+    "text": "written"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 63364160,
     "duration": 3519580,
+    "text": "yet"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 75257080,
+    "duration": 1699160,
+    "text": "It"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 77077500,
+    "duration": 3883330,
     "text": "depends"
   },
   {
     "type": "WordBoundary",
-    "offset": 38970830,
+    "offset": 81082500,
     "duration": 1213750,
     "text": "on"
   },
   {
     "type": "WordBoundary",
-    "offset": 40305830,
-    "duration": 1699160,
+    "offset": 82417500,
+    "duration": 1577500,
     "text": "what"
   },
   {
     "type": "WordBoundary",
-    "offset": 42126250,
+    "offset": 84116660,
     "duration": 1092080,
     "text": "we"
   },
   {
     "type": "WordBoundary",
-    "offset": 43340000,
-    "duration": 3519580,
+    "offset": 85330000,
+    "duration": 3397910,
     "text": "choose"
   },
   {
     "type": "WordBoundary",
-    "offset": 46980410,
-    "duration": 970830,
+    "offset": 88849580,
+    "duration": 849580,
     "text": "to"
   },
   {
     "type": "WordBoundary",
-    "offset": 48072910,
-    "duration": 3762080,
+    "offset": 89820410,
+    "duration": 4732910,
     "text": "build"
   },
   {
     "type": "WordBoundary",
-    "offset": 53897910,
+    "offset": 102927080,
+    "duration": 3397910,
+    "text": "So"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 108267080,
     "duration": 1699160,
-    "text": "and"
+    "text": "what"
   },
   {
     "type": "WordBoundary",
-    "offset": 55718330,
-    "duration": 1213750,
-    "text": "for"
+    "offset": 110087500,
+    "duration": 1092080,
+    "text": "will"
   },
   {
     "type": "WordBoundary",
-    "offset": 57053330,
-    "duration": 4611660,
-    "text": "whom"
+    "offset": 111300830,
+    "duration": 1335000,
+    "text": "you"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 112757080,
+    "duration": 4975830,
+    "text": "build"
   }
 ]

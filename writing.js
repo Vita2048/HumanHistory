@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {createBook} from './antique-book.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 // Clay, incised wedge marks, and an archive: every pose derives from local time.
@@ -13,20 +14,20 @@ export function createWriting(){
  put(new THREE.PlaneGeometry(100,140),mat('#292333'),0,-.05,-30).rotation.x=-Math.PI/2;
  // Hero tablet stands above a low writing table; round corners catch the warm key.
  const tablet=new THREE.Group();tablet.position.set(0,4.5,0);tablet.rotation.x=-.13;scene.add(tablet);
- put(new RoundedBoxGeometry(4.7,5.8,.48,3,.22),clay,0,0,0,tablet);
+ const antique=createBook();tablet.add(antique);antique.scale.setScalar(.84);tablet.rotation.x=-.25;
  put(new THREE.BoxGeometry(6,.28,3),wood,0,1.5,0);
  for(const x of [-2.3,2.3])for(const z of [-1,1])put(new THREE.BoxGeometry(.25,1.5,.25),wood,x,.75,z);
  const wedge=new THREE.Shape();wedge.moveTo(-.14,.12);wedge.lineTo(.16,0);wedge.lineTo(-.14,-.075);wedge.closePath();
  const wedgeGeo=new THREE.ExtrudeGeometry(wedge,{depth:.025,bevelEnabled:false});
  const marks=[],symbols=[];
  for(let row=0;row<7;row++)for(let col=0;col<6;col++){
-  const g=new THREE.Group();g.position.set(-1.75+col*.69,2.08-row*.64,.251);tablet.add(g);
+  const g=new THREE.Group();g.position.set(-1.75+col*.69,2.08-row*.64,.251);g.visible=false;
   const gold=new THREE.MeshStandardMaterial({color:'#714329',emissive:'#ffb359',emissiveIntensity:0,roughness:1});
   for(let j=0;j<3;j++){const m=put(wedgeGeo,gold,(j%2)*.17,(j===2?-.18:.08),0,g);m.rotation.z=(row+col+j)%3===0?Math.PI/2:0;m.scale.setScalar(.9);}
   marks.push({g,mat:gold,reveal:.6+(row*6+col)*.105});
  }
  // Scratches and a raised rim give the tablet a tactile surface at close range.
- for(let i=0;i<19;i++){const x=-2+(i*.731%4),y=-2.5+(i*.413%5);const l=put(new THREE.BoxGeometry(.07+i%3*.025,.012,.008),ink,x,y,.246,tablet);l.rotation.z=i*.9;}
+ for(let i=0;i<19;i++){const x=-2+(i*.731%4),y=-2.5+(i*.413%5);const l=put(new THREE.BoxGeometry(.07+i%3*.025,.012,.008),ink,x,y,.246,tablet);l.rotation.z=i*.9;l.visible=false;}
  // Racks of records recede on both sides of the camera's retreat.
  for(const side of [-1,1])for(let bay=0;bay<5;bay++){
   const x=side*6.1,z=-4-bay*5;
@@ -54,8 +55,8 @@ export function createWriting(){
  const clamp=x=>Math.max(0,Math.min(1,x)),sm=x=>{x=clamp(x);return x*x*(3-2*x);};
  function update(camera,t){const pull=sm((t-2.4)/7.6);camera.position.set(pull*2.4,5.5+pull*1.5,13+pull*8);camera.lookAt(0,4.2,-pull*3);tablet.rotation.y=-.08+pull*.13;
   for(const m of marks){const a=sm((t-m.reveal)/.22);m.g.scale.setScalar(Math.max(.001,a));m.mat.emissiveIntensity=Math.max(0,1.4-(t-m.reveal)*1.6)*a;}
-  const target=marks[Math.min(41,Math.max(0,Math.floor((t-.6)/.105)))].g;tablet.updateMatrixWorld(true);const v=tablet.localToWorld(target.position.clone());stylus.position.copy(v).add(new THREE.Vector3(.04,.04,.12));stylus.visible=t<5.35;stylus.position.x+=sm((t-4.95)/.4)*5;
-  for(let i=0;i<symbols.length;i++){const u=clamp((t-4.7-i*.045)/4.8);const a=i*2.399;symbols[i].visible=u>0;symbols[i].position.set(Math.sin(a)*u*5,5.3+u*4+Math.sin(u*5+a)*.25,-1-u*26);symbols[i].rotation.set(.1,u*.6,Math.sin(a)*.35);symbols[i].scale.setScalar((1-u*.65)*.7);}
+  const target=marks[Math.min(41,Math.max(0,Math.floor((t-.6)/.105)))].g;tablet.updateMatrixWorld(true);const v=tablet.localToWorld(target.position.clone());stylus.position.copy(v).add(new THREE.Vector3(.04,.04,.12));stylus.visible=false;stylus.position.x+=sm((t-4.95)/.4)*5;
+  for(let i=0;i<symbols.length;i++){const u=clamp((t-4.7-i*.045)/4.8);const a=i*2.399;symbols[i].visible=false;symbols[i].position.set(Math.sin(a)*u*5,5.3+u*4+Math.sin(u*5+a)*.25,-1-u*26);symbols[i].rotation.set(.1,u*.6,Math.sin(a)*.35);symbols[i].scale.setScalar((1-u*.65)*.7);}
   dust.rotation.y=t*.012;key.intensity=100+4*Math.sin(t*3);
  }
  return {scene,update};

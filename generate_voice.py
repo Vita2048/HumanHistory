@@ -17,7 +17,7 @@ LINES = [
  ('computing', 'We taught machines to calculate, then connected them. More people could share knowledge, create, and collaborate across the planet.'),
  ('space', 'We reached beyond Earth, and looked back at the fragile home that had made every discovery possible.'),
  ('ai', 'We built systems that learned patterns from data, helping us discover, create, and solve problems. Their power made human judgment more important.'),
- ('closing', 'Progress is never guaranteed. What comes next depends on what we choose to build, and for whom.')
+ ('closing', 'Progress is rarely a straight line, but it never stops—it accelerates. What comes next isn’t written yet. It depends on what we choose to build. So... what will you build?')
 ]
 async def main():
  Path('assets').mkdir(exist_ok=True)

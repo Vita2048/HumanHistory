@@ -10,7 +10,6 @@ export function createIndustry(){
  const gear=new THREE.Group();gear.position.set(0,5,5);scene.add(gear);
  put(new THREE.TorusGeometry(2.45,.25,10,64),brass,0,0,0,gear);put(new THREE.CylinderGeometry(.45,.45,.65,20),iron,0,0,0,gear).rotation.x=Math.PI/2;
  for(let i=0;i<8;i++){const a=i*Math.PI/4;const spoke=put(new THREE.BoxGeometry(.16,4.8,.16),iron,0,0,0,gear);spoke.rotation.z=a;}
- for(let i=0;i<24;i++){const a=i*Math.PI/12;const tooth=put(new THREE.BoxGeometry(.35,.5,.55),brass,Math.sin(a)*2.65,Math.cos(a)*2.65,0,gear);tooth.rotation.z=-a;}
  // Rails, sleepers, and factory facades provide clear speed and depth cues.
  for(const x of [-1.25,1.25])put(new THREE.BoxGeometry(.12,.15,180),iron,x,.08,-45,scene);
  for(let i=0;i<90;i++)put(new THREE.BoxGeometry(3.8,.13,.24),coal,0,-.02,25-i*2,scene);
@@ -62,4 +61,3 @@ export function createElectricity(){
  }
  return {scene,update};
 }
-

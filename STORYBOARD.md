@@ -79,3 +79,12 @@ time: 20–30
 Motion: Three.js deterministic camera retreat based on 3d-camera-flight principles. Incised wedge marks appear under a reed stylus, then shelves of tablets emerge as the camera retreats. Warm golden signs travel toward the far archive doorway. MEMORY title.
 VO: We gave memory a shape. Words could travel farther than voices, and knowledge could outlive its makers.
 Delivery: HyperFrames preview only; no new MP4.
+
+
+## October 6 visual revision
+- Writing: open antique leather-bound manuscript, curved parchment and illuminated script.
+- Industry: smooth flywheel without teeth.
+- Computing: cream desktop computer, CRT screen, keyboard and mouse, followed by network globe.
+- Space: detailed textured Earth and separate clouds, multistage rocket with engine bells, fins and panel detail.
+- Closing (104–118s): full-body figure holding a golden light; subtle push-in.
+- Narration: Progress is rarely a straight line, but it never stops—it accelerates. What comes next isn’t written yet. It depends on what we choose to build. So... what will you build?
